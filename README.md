@@ -49,5 +49,22 @@ One measurement is Within Cluster Sum of Squares (WCSS), which measures the squa
 
 ___
 
+## Hierarchcial Clustering
+Hierarchical clustering is another unsupervised learning algorithm that is used to group together the unlabeled data points having similar characteristics. Hierarchical clustering algorithms falls into following two categories.   
+1. **Agglomerative hierarchical algorithms:** In agglomerative hierarchical algorithms, each data point is treated as a single cluster and then successively merge or agglomerate (bottom-up approach) the pairs of clusters. The hierarchy of the clusters is represented as a dendrogram or tree structure.   
 
+2. **Divisive hierarchical algorithms:** On the other hand, in divisive hierarchical algorithms, all the data points are treated as one big cluster and the process of clustering involves dividing (Top-down approach) the one big cluster into various small clusters.   
+
+
+### **Process**: 
+
+**Step 1:** Make each data point a single point cluster -> That forms N cluster.   
+**Step 2:** Take the two closest data points and make them one cluster -> That form N-1 clusters.
+**Step 3:** Take the two closest cluster and make them one cluster -> That forms N-2 cluster.   
+**Step 4:** Repeat Step 3 until there is only one clsuter.   
+
+**Selection of right number of clusters**   
+A dendrogram is a diagram that shows the hierarchical relationship between objects. It is most commonly created as an output from hierarchical clustering. The main use of a dendrogram is to work out the best way to allocate objects to clusters.
+
+![Dendrogram](assests/hc1.PNG)
 
