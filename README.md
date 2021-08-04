@@ -66,5 +66,18 @@ Hierarchical clustering is another unsupervised learning algorithm that is used 
 **Selection of right number of clusters**   
 A dendrogram is a diagram that shows the hierarchical relationship between objects. It is most commonly created as an output from hierarchical clustering. The main use of a dendrogram is to work out the best way to allocate objects to clusters.
 
-![Dendrogram](assests/hc1.PNG)
+![Dendrogram](assets/HC1.PNG)   
 
+## Steps Involved:   
+
+1. Import the Libraries. 
+2. Import the datasets.
+3. Using the dendrogram to determine the number of clusters.
+4. Training the dataset on K-Means Model.
+5. Visualising the clusters.
+
+## Observation:   
+
+![Observation](assets/HC2.PNG)
+___
+___
